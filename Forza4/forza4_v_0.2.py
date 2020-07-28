@@ -105,7 +105,7 @@ table= create_matrix(qLine,qColumn)
 i = 0
 player = 1
 
-for i in range(len(table)):
+for line in range(len(table)):
 		print(table[i])
 while i < 20:
 	user_input=(int(input("You choose number..? : "))-1)
